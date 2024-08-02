@@ -83,8 +83,7 @@ body{
     }
     
     .nav-options{
-        background-color: rgba(0, 0, 0, 0.9);
-        backdrop-filter: blur(10px);
+        background-color: #2D0506;
         position: fixed;
         top: 0;
         left: 0;
@@ -98,6 +97,7 @@ body{
         gap: 0;
         pointer-events: none;
         font-size: 27px;
+        translate: 4s;
     }
     
     .nav.active .nav-options{
