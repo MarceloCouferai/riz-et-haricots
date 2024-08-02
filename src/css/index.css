@@ -2,7 +2,7 @@
 
 
 body{
-    background-image: url('../assets/images/bg1.jpg');
+    background-image: url('../assets/images/bgprincipal.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -83,7 +83,7 @@ body{
     }
     
     .nav-options{
-        background-color: #2D0506;
+        background-image: linear-gradient(to left bottom, #d08850, #c0b171, #b9d1a9, #ceeade, #fdfefe);
         position: fixed;
         top: 0;
         left: 0;
