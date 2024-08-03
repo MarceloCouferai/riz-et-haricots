@@ -85,7 +85,7 @@ main{
 .title{
 
     font-size: 75px;
-    color: #BF9D49;
+    color: #927733;
     text-shadow: 2px 2px 4px rgba(56, 29, 9, 0.8);
 }
 
@@ -132,6 +132,13 @@ main{
         padding-left: 1rem;
     }
 
+}
+
+@media (max-width: 450px){
+    .container-title{
+        text-align: center;
+        width: 90%;
+    }
 }
 
 @media (max-width: 370px){
