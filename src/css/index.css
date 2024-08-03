@@ -2,7 +2,7 @@
 
 
 body{
-    background-image: url('../assets/images/bgprincipal.jpg');
+    background-image: url('../assets/images/cro.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -14,12 +14,12 @@ body{
 
 .nav{
     background-color: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 100px;
+    height: 15%;
     font-size: 20px;
     margin-inline: auto;
 }
@@ -69,6 +69,28 @@ body{
     margin-top: 5px;
 }
 
+main{
+    display: flex;
+    width: 100%;
+    height: 38%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-title{
+    text-align: center;
+    width: 70%;
+}
+
+.title{
+
+    font-size: 75px;
+    color: #BF9D49;
+    text-shadow: 2px 2px 4px rgba(56, 29, 9, 0.8);
+}
+
+/* MENU HAMBURGER */
+
 @media (max-width: 750px){
 
     .hamburger{
@@ -83,7 +105,7 @@ body{
     }
     
     .nav-options{
-        background-image: linear-gradient(to left bottom, #d08850, #c0b171, #b9d1a9, #ceeade, #fdfefe);
+        background-image: linear-gradient(to right top, #956619, #a27a3e, #ad8e60, #b8a383, #c2b7a7);
         position: fixed;
         top: 0;
         left: 0;
@@ -108,5 +130,12 @@ body{
     #logo-nav{
         width:130px;
         padding-left: 1rem;
+    }
+
+}
+
+@media (max-width: 370px){
+    body{
+        background-image: url('../assets/images/croassaint.jpg');
     }
 }
