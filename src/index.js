@@ -8,3 +8,5 @@ hamburger.addEventListener("click", () => {
 
 console.log(hamburger);
 console.log(nav);
+
+AOS.init();
