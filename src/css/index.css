@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Modern+Antiqua&display=swap');
 
 
+*{
+    scroll-behavior: smooth;
+}
+
 body{
     background-image: url('../assets/images/cro.jpg');
-    background-size: cover;
+    position: absolute;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%; 
     font-family: 'Modern Antiqua';
-    height: 100%;
-    width: 100%;
-    z-index: 0;
 }
 
 .nav{
@@ -72,13 +76,14 @@ body{
 main{
     display: flex;
     width: 100%;
-    height: 38%;
+    height: 85%;
     align-items: center;
     justify-content: center;
 }
 
 .container-title{
     text-align: center;
+    height: 68%;
     width: 70%;
 }
 
@@ -88,6 +93,20 @@ main{
     color: #927733;
     text-shadow: 2px 2px 4px rgba(56, 29, 9, 0.8);
 }
+
+#menu-section{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 25rem;
+}
+
+.title-menu{
+    font-size: 55px;
+}
+
+
 
 /* MENU HAMBURGER */
 
@@ -139,8 +158,13 @@ main{
         text-align: center;
         width: 90%;
     }
+
+    #menu-section{
+        padding-top: 5rem;
+    }
 }
 
+/* corrigindo bg em celulares */
 @media (max-width: 370px){
     body{
         background-image: url('../assets/images/croassaint.jpg');
