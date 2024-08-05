@@ -6,12 +6,11 @@
 }
 
 body{
-    background-image: url('../assets/images/cro.jpg');
-    position: absolute;
+    background-image: url('../assets/images/croassaint.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100%;
     width: 100%; 
     font-family: 'Modern Antiqua';
 }
@@ -99,7 +98,7 @@ main{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-top: 25rem;
+    padding-top: 3rem;
 }
 
 .title-menu{
@@ -167,6 +166,6 @@ main{
 /* corrigindo bg em celulares */
 @media (max-width: 370px){
     body{
-        background-image: url('../assets/images/croassaint.jpg');
+        background-image: url('../assets/images/cro.jpg');
     }
 }
