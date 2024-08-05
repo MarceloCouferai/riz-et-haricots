@@ -1,0 +1,19 @@
+{
+    "pratoEntrada": {
+        "nome": "Entrada1",
+        "descricao": "teste entrada 1",
+        "preco": "21.99"
+    },
+
+    "pratoPrincipal": {
+        "nome": "Prato principal 1",
+        "descricao": "teste prato 1",
+        "preco": "21.99"
+    },
+
+    "sobremesa": {
+        "nome": "Sobremesa1",
+        "descricao": "teste prato 1",
+        "preco": "21.99"
+    }
+  }
