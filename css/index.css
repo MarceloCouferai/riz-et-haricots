@@ -191,7 +191,7 @@ main{
         gap: 0;
         pointer-events: none;
         font-size: 27px;
-        translate: 4s;
+        translate: 2s;
     }
     
     .nav.active .nav-options{
