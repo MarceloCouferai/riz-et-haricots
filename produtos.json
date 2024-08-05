@@ -1,19 +1,28 @@
 {
-    "pratoEntrada": {
+    "pratoEntrada": [
+        {
         "nome": "Entrada1",
-        "descricao": "teste entrada 1",
+        "descricao": "teste entrada 1123412341",
+        "preco": "22.99"
+        },
+        {
+        "nome": "Entrada2",
+        "descricao": "teste entrada 1123412341",
         "preco": "21.99"
-    },
-
-    "pratoPrincipal": {
-        "nome": "Prato principal 1",
-        "descricao": "teste prato 1",
+        }
+    ],
+    "pratoPrincipal": [
+        {
+        "nome": "Entrada1",
+        "descricao": "teste entrada sadfasdf1",
         "preco": "21.99"
-    },
-
-    "sobremesa": {
-        "nome": "Sobremesa1",
-        "descricao": "teste prato 1",
+        }
+    ],
+    "Sobremesa": [
+        {
+        "nome": "Entrada1",
+        "descricao": "teste entrada asafd3d21f3asd11",
         "preco": "21.99"
-    }
+        }
+    ]
   }
