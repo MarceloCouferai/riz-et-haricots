@@ -15,20 +15,46 @@ optionHamburger.addEventListener("click", () => {
 
 //ADICIONAR CARDS
 
-const card = document.querySelector(".card")
-
-fetch('./produtos.json').then((response) =>{
-    response.json().then((dados) =>{
-        dados.pratoEntrada.map((prato) => {
-            
-            card.innerHTML += `
-                <img data-aos="flip-up" class="img-card" src="./assets/images/prato1.jpg" alt="">
-                <div class="info-card">
-                    <h3 class="card-title">${prato.nome}</h3>
-                    <p class="card-content">${prato.descricao}</p>
-                    <p class="card-price">R$ ${prato.preco}</p>
-                </div>
+const entradas = document.querySelector(".entradas")
+const principais = document.querySelector(".principais");
+const sobremesas = document.querySelector(".sobremesas");
+fetch('./produtos.json').then((response) =>{ //pegar arquivo e retornar
+    response.json().then((dados) =>{ //converte em um objeto
+        dados.pratoEntrada.map((prato) => { //mapeia dados baseado em pratoEntrada
+            entradas.innerHTML += `
+                <div>
+                    <img data-aos="flip-up" class="img-card" src="./assets/images/${prato.imagem}" alt="">
+                    <div class="info-card">
+                        <h3 class="card-title">${prato.nome}</h3>
+                        <p class="card-content">${prato.descricao}</p>
+                        <p class="card-price">R$ ${prato.preco}</p>
+                    </div>
+                <div/>
             `
+        })
+        dados.pratoPrincipal.map((prato) =>{
+            principais.innerHTML = `
+                <div>
+                    <img data-aos="flip-up" class="img-card" src="./assets/images/${prato.imagem}" alt="">
+                    <div class="info-card">
+                        <h3 class="card-title">${prato.nome}</h3>
+                        <p class="card-content">${prato.descricao}</p>
+                        <p class="card-price">R$ ${prato.preco}</p>
+                    </div>
+                <div/>
+            `    
+        })
+        dados.Sobremesa.map((prato) =>{
+            sobremesas.innerHTML = `
+                <div>
+                    <img data-aos="flip-up" class="img-card" src="./assets/images/${prato.imagem}" alt="">
+                    <div class="info-card">
+                        <h3 class="card-title">${prato.nome}</h3>
+                        <p class="card-content">${prato.descricao}</p>
+                        <p class="card-price">R$ ${prato.preco}</p>
+                    </div>
+                <div/>
+            `    
         })
     })
 })
