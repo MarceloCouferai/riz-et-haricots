@@ -6,7 +6,7 @@
     transition: all 1s ease,
 }
 
-body{
+#body-main{
     background-color: #E3DDD2;
     background-image: url('../assets/images/croassaint.jpg');
     background-repeat: no-repeat;
@@ -15,6 +15,17 @@ body{
     height: 100%;
     width: 100%; 
     font-family: 'Modern Antiqua';
+}
+
+#body-reservas{
+    background-color: #E3DDD2;
+    height: 100%;
+    width: 100%; 
+    font-family: 'Modern Antiqua';
+}
+
+#header-reserva{
+    background-color: #ad8e60;
 }
 
 .nav{
@@ -81,6 +92,10 @@ main{
     height: 85%;
     align-items: center;
     justify-content: center;
+}
+
+#main-reserva{
+    background-color: #E3DDD2;
 }
 
 .container-title{
@@ -183,6 +198,7 @@ main{
     height: 150px;
     justify-content: center;
     color: white;
+    position: relative;
 }
 
 .container-footer{
