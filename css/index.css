@@ -161,6 +161,13 @@ main{
     font-size: 30px;
 }
 
+.info-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+}
+
 #footer{
     background-color: #ad8e60;
     display: flex;
@@ -235,6 +242,13 @@ main{
         padding-left: 1rem;
     }
 
+    .info-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 250px;
+    }
+
 }
 
 @media (max-width: 450px){
@@ -273,5 +287,13 @@ main{
 
     .img-card{
         width: 100%;
+    }
+
+    .info-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 320px;
+        padding-bottom: 5rem;
     }
 }
