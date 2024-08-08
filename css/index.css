@@ -17,13 +17,6 @@
     font-family: 'Modern Antiqua';
 }
 
-#body-reservas{
-    background-color: #E3DDD2;
-    height: 100%;
-    width: 100%; 
-    font-family: 'Modern Antiqua';
-}
-
 #header-reserva{
     background-color: #ad8e60;
 }
@@ -150,42 +143,6 @@ main{
     text-shadow: 2px 2px 4px rgba(56, 29, 9, 0.8);
 }
 
-.container-title-reserva{
-    text-align: center;
-    padding-bottom: 5rem;
-    width: 70%;
-}
-
-.container-quantidade-reservas{
-    text-align: center;
-    font-size: 25px;
-}
-
-.qtd-mesas{
-    padding-top: 2rem;
-    font-size: 40px;
-}
-
-#form-reserva{
-    gap: 2.5rem;
-    padding-top: 5rem;
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;
-}
-
-.input-reserva-container{
-    display: flex;
-    flex-direction: column;
-}
-
-.input-reserva{
-    width: 500px;
-    height: 40px;
-    font-size: 15px;
-    border-radius: 10px;
-    border: 0px;
-}
 
 /* MENU */
 
@@ -388,7 +345,7 @@ main{
     }
 }
 
-@media (max-width:440px){
+@media (min-width:440px){
     .title-menu{
         font-size: 45px;
     }
@@ -421,12 +378,5 @@ main{
         justify-content: center;
         gap: 1rem;
         flex-direction: column;
-    }
-}
-
-@media (max-width: 560px){
-    .input-reserva{
-        width: 200px;
-
     }
 }

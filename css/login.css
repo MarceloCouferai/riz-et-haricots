@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Modern+Antiqua&display=swap');
+
+body{
+    background-color: #E3DDD2;
+    background-image: url('../assets/images/cro.jpg');
+    backdrop-filter: blur(10px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    font-family: 'Modern Antiqua';
+}
+
+.container-geral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container-form{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.151); 
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.container-inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    font-size: 25px;
+}
+
+.option{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.option input{
+    width: 315px;
+    height: 30px;
+    border-radius: 10px;
+    border: transparent;
+}
+
+.container-img img{
+    width: 300px;
+    padding-bottom: 3rem;
+}
+
+@media (max-width: 1150px){
+    .container-form{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 50%;
+        background: rgba(0, 0, 0, 0.151); 
+        box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+    }
+}
+
+@Media (max-width: 640px){
+    .container-form{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        height: 50%;
+        background: rgba(0, 0, 0, 0.151); 
+        box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+    }
+}
+
+@Media (max-width: 420px){
+    .container-form{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 70%;
+        background: rgba(0, 0, 0, 0.151); 
+        box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+    }
+
+    .option input{
+        width: 250px;
+        height: 30px;
+        border-radius: 10px;
+        border: transparent;
+    }
+
+    .container-img img{
+        width: 250px;
+        padding-bottom: 3rem;
+    }
+}
