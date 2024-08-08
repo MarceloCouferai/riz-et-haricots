@@ -345,7 +345,7 @@ main{
     }
 }
 
-@media (min-width:440px){
+@media (max-width:440px){
     .title-menu{
         font-size: 45px;
     }
