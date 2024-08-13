@@ -84,6 +84,11 @@ body {
             
                         .option-aside{
                             display: none;
+
+                            a {
+                                text-decoration: none;
+                                color: white;
+                            }
                         }
                     }
                     li:hover{
@@ -126,10 +131,39 @@ body {
         height: 100%;
 
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
         
         h1{
             font-size: 45px;
             margin-top: 2rem;
+        }
+
+        .container-main{
+            display: flex;
+            width: 90%;
+            height: 85%;
+            border: 1px solid black;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+
+            .container-main-categorias,  .container-main-pratos{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 1rem;
+                margin: 10px;
+                width: 40%;
+                height: 20%;
+                border: 1px solid black;
+
+                h2{
+                    font-size: 35px;
+                    justify-content: center;
+                }
+            }
         }
     }
 }

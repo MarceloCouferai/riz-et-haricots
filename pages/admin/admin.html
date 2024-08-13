@@ -2,9 +2,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../assets/images/torre-branca.png" />
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/admin.scss">
+    <link rel="icon" href="../../assets/images/torre-branca.png" />
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/admin.scss">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Painel Administrativo</title>
@@ -14,7 +14,7 @@
         <nav class="nav">
             <img id="logo-nav" src="/assets/images/torre-branca.png"/>
                 <ul class="nav-options" >
-                    <li><a class="option-hamburger" href="../index.html">Menu</a></li>
+                    <li><a class="option-hamburger" href="../../index.html">Menu</a></li>
                 </ul>
         </nav>
     </header>
@@ -25,15 +25,15 @@
                 <ul>
                     <li>
                         <i class="fa-solid fa-house"></i>
-                        <span class="option-aside">Página Inicial</span>
+                        <span class="option-aside"><a href="">Página Inicial</a></span>
                     </li>
                     <li>
                         <i class="fa-solid fa-list"></i>
-                        <span class="option-aside">Cardápio</span>
+                        <span class="option-aside"><a href="">Cardápio</a></span>
                     </li>
                     <li>
                         <i class="fa-solid fa-power-off"></i>
-                        <span class="option-aside">Logout</span>
+                        <span class="option-aside"><a href="../login/login.html">Logout</a></span>
                     </li>
                 </ul>
             </div>
@@ -41,7 +41,19 @@
     </aside>
     <main>
             <h1>Página Inicial</h1>
+            <div class="container-main">
+                <div class="container-main-categorias">
+                    <h2>Categorias</h2>
+                    <span id="qtd-categorias"></span>
+                </div>
+                <div class="container-main-pratos">
+                    <h2>Pratos</h2>
+                    <span id="qtd-pratos"></span>
+                </div>
+            </div>
     </main>
 </div>
+
+<script src="./admin.js"></script>
 </body>
 </html>
