@@ -199,10 +199,8 @@ body {
             }
             
             .container-main{
-                    display: flex;
                     width: 90%;
                     height: 85%;
-                    border: 1px solid black;
                     flex-direction: column;
 
                     .filtros-cardapio{
@@ -210,7 +208,7 @@ body {
                         justify-content: end;
                         padding: 10px;
                         border-bottom: 0.5px solid #3f331f;
-                        
+                        padding-bottom: 1.5rem;
 
                         button{
                             background-color: #3f331f;
@@ -235,6 +233,10 @@ body {
                             height: 30px;
                             text-align: center;
                             color: white;
+
+                            th{
+                                padding: 10px;
+                            }
                         }
 
                         tbody {
