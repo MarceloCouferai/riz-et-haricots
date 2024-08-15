@@ -49,7 +49,7 @@ body {
     }
 }
 
-.container{
+.container {
     display: flex;
     height: 92%;
     width: 100%;
@@ -63,26 +63,27 @@ body {
         z-index: 1000;
         color: white;
 
-        nav{
+        nav {
             width: 100%;
-            .options{
+
+            .options {
                 ul {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
 
-                    li{
+                    li {
                         display: flex;
                         align-items: center;
                         transition: 1s ease-in-out;
                         margin-top: 2rem;
 
-            
-                        i{
+
+                        i {
                             font-size: 20px;
                         }
-            
-                        .option-aside{
+
+                        .option-aside {
                             display: none;
 
                             a {
@@ -91,31 +92,33 @@ body {
                             }
                         }
                     }
-                    li:hover{
+
+                    li:hover {
                         cursor: pointer;
-                        
+
                     }
                 }
             }
-            
+
         }
 
         &:hover {
             width: 100%;
             max-width: 270px;
 
-            nav{
-                .options{
+            nav {
+                .options {
                     ul {
-                        li{
+                        li {
                             width: 150px;
                             gap: 10px;
-                            i{
+
+                            i {
                                 left: 0;
                                 font-size: 20px;
                             }
-                
-                            .option-aside{
+
+                            .option-aside {
                                 display: block;
                             }
                         }
@@ -127,49 +130,61 @@ body {
     }
 
     main {
+        display: flex;
+        align-items: center;
         width: 100%;
         height: 100%;
 
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-        
-        h1{
-            font-size: 45px;
-            margin-top: 2rem;
-        }
+        #main-pginicial {
+            width: 100%;
+            height: 100%;
 
-        .container-main{
+            text-align: center;
             display: flex;
-            width: 90%;
-            height: 85%;
-            border: 1px solid black;
             flex-direction: column;
+            align-items: center;
+            gap: 2rem;
 
-            div{
+            h1 {
+                font-size: 45px;
+                margin-top: 2rem;
+            }
+
+            .container-main {
                 display: flex;
-                width: 100%;
-                height: 90%;
-                justify-content: space-between;
-                
-                .container-main-categorias,  .container-main-pratos{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    gap: 1rem;
-                    width: 100%;
-                    height: 100%;
-    
-                    h2{
-                        font-size: 35px;
-                        justify-content: center;
-                    }
+                width: 90%;
+                height: 85%;
+                border: 1px solid black;
+                flex-direction: column;
 
-                
+                div {
+                    display: flex;
+                    width: 100%;
+                    height: 90%;
+                    justify-content: space-between;
+
+                    .container-main-categorias,
+                    .container-main-pratos {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 1rem;
+                        width: 100%;
+                        height: 100%;
+
+                        h2 {
+                            font-size: 35px;
+                            justify-content: center;
+                        }
+
+
+                    }
                 }
             }
+        }
+
+        #main-cardapio {
+            display: none;
         }
     }
 }
