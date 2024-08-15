@@ -11,33 +11,7 @@ fetch('../../produtos.json').then((response) => {
 
     const qtdPratos = qtdSobremesas + qtdPrincipal + qtdEntradas;
     
-    // const qtdPratos = 
     categorias.innerHTML = `<h2>${qtdCategoria}</h2>`
     pratos.innerHTML = `<h2>${qtdPratos}</h2>`
     })
 })
-
-//grafico
-
-// window.onload = function(){
-//     const data = [
-//         { year: 2010, count: 10 },
-//         { year: 2011, count: 20 },
-//       ];
-    
-//       new Chart(
-//         document.getElementById('acquisitions'),
-//         {
-//           type: 'bar',
-//           data: {
-//             labels: data.map(row => row.year),
-//             datasets: [
-//               {
-//                 label: 'Pratos por Categoria',
-//                 data: data.map(row => row.count)
-//               }
-//             ]
-//           }
-//         }
-//     );
-// }

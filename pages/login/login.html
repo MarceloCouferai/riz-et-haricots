@@ -1,8 +1,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0">
     <link rel="icon" href="../../assets/images/torre-branca.png" />
     <link rel="stylesheet" href="../../css/reset.css">
     <link rel="stylesheet" href="../../css/login.css">
@@ -13,27 +12,27 @@
 <body>
     <main>
         <div class="container-geral">
-            <div class="container-form">
+            <form class="container-form">
                 <div class="container-img">
                     <img src="../../assets/images/torre-branca.png" alt="">
                 </div>
                     <div class="container-inputs">
                         <div class="option">
                             <label for="">Usuário</label>
-                            <input type="text">
+                            <input id="user" type="text" value="">
                         </div>
                         <div class="option">
                             <label for="">Senha</label>
-                            <input type="password">
+                            <input type="password" value="" id="senha">
                         </div>
                     </div>
                     <div class="container-button">
-                        <button class="button">
-                            Entrar
-                        </button>
+                        <input class="button" type="submit" onclick="Login(); return false">
+                    </input>
                     </div>
-            </div>
+            <form>
         </div>
     </main>
+    <script src="./login.js"></script>
 </body>
 </html>
