@@ -25,7 +25,7 @@ const pgCardapio = document.getElementById("pg-cardapio")
 pgCardapio.addEventListener("click", () => {
     event.preventDefault();
     mainPgInicial.style.display = "none";
-    mainCardapio.style.display = "block";
+    mainCardapio.style.display = "flex";
 });
 
 pgInicial.addEventListener("click", () => {

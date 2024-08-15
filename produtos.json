@@ -4,25 +4,29 @@
             "nome": "Escargots",
             "descricao": "Os escargots talvez sejam a mais estereotipada das entradas da culinária francesa (ou infames, dependendo de para quem você perguntar). Os caracóis são servidos quentes dentro das conchas ou num prato específico com seis a 12 pequenos compartimentos.",
             "preco": "200,00",
-            "imagem": "escargot.jpg"
+            "imagem": "escargot.jpg",
+            "categoria": "entrada"
         },
         {
             "nome": "Soupe à l’oignon",
             "descricao": "A sopa de cebola francesa é feita com caldo de carne e cebola dourada, acompanhada de croutons gratinados e queijo por cima. É uma entrada da culinária francesa muito farta e reforçada, tanto que há pessoas que a apreciam como uma refeição. É altamente recomendável para um dia frio de inverno.",
             "preco": "100,00",
-            "imagem": "sopa.jpg"
+            "imagem": "sopa.jpg",
+            "categoria": "entrada"
         },
         {
             "nome": "Quiche Lorraine",
             "descricao": "Ovos cremosos, bacon defumado e uma massa folhada: a quiche Lorraine é item obrigatório entre as entradas da culinária francesa. Você encontra quiches sendo servidas na França e em todo o mundo com inúmeras combinações de sabores (todos igualmente deliciosos e criativos).",
             "preco": "89,00",
-            "imagem": "ovo.jpg"
+            "imagem": "ovo.jpg",
+            "categoria": "entrada"
         },
         {
             "nome": "Salade Niçoise",
             "descricao": "Elegantemente servida num tabuleiro ou travessa grande, a salada traz uma cama de alface e um simples molho de azeite ou vinagrete que deixa brilhar a verdadeira estrela do prato: os crudités (ou vegetais crus). É uma perfeita entrada da culinária francesa que pode ser adaptada para usar o melhor dos produtos locais em qualquer região.",
             "preco": "120,00",
-            "imagem": "salada.jpg"
+            "imagem": "salada.jpg",
+            "categoria": "entrada"
         }
     ],
     "pratoPrincipal": [
@@ -30,25 +34,29 @@
             "nome": "Foie Gras",
             "descricao": "O foie gras é um prato que consiste em um fígado de pato ou ganso gorduroso que é cozido e temperado com sal e pimenta.",
             "preco": "1.350,00",
-            "imagem": "foie-gras.jpg"
+            "imagem": "foie-gras.jpg",
+            "categoria": "principal"
             },
             {
             "nome": "Ratatouille",
             "descricao": "O ratatouille é um prato vegetariano que consiste em uma mistura de legumes, como berinjela, abobrinha, pimentão e tomate, cozidos em azeite e temperados com ervas e alho.",
             "preco": "155,00",
-            "imagem": "ratatouille.jpg"
+            "imagem": "ratatouille.jpg",
+            "categoria": "principal"
             },
             {
             "nome": "Coq au vin",
             "descricao": "O coq au vin é um prato clássico da culinária francesa que consiste em pedaços de frango cozidos em vinho tinto, caldo de carne e legumes, como cogumelos, cebola e cenoura. Ele é temperado com ervas, como tomilho e louro, e é frequentemente servido com batatas ou arroz.",
             "preco": "155,00",
-            "imagem": "coqauvin.jpg"
+            "imagem": "coqauvin.jpg",
+            "categoria": "principal"
             },
             {
             "nome": "Confit de pato",
             "descricao": "Nomeado por conta do termo francês “souffler“, que significa “inchar”, a experiência de comer um suflê (seja ele de chocolate ou um dos representantes salgados) pode ser descrita como “morder uma nuvem”. ",
             "preco": "120,00",
-            "imagem": "confit-pato.jpg"
+            "imagem": "confit-pato.jpg",
+            "categoria": "principal"
             } 
     ],
     "Sobremesa": [
@@ -56,25 +64,29 @@
         "nome": "Soufflé",
         "descricao": "Nomeado por conta do termo francês “souffler“, que significa “inchar”, a experiência de comer um suflê (seja ele de chocolate ou um dos representantes salgados) pode ser descrita como “morder uma nuvem”. Ainda que seja difícil de preparar, o suflê tem uma lista de ingredientes relativamente simples. A textura aerada é um resultado da separação das claras da gema e da batida delas.",
         "preco": "89,00",
-        "imagem": "sufle.jpg"
+        "imagem": "sufle.jpg",
+        "categoria": "sombremesa"
         },
         {
         "nome": "Mil Folhas",
         "descricao": "Mil Folhas é literalmente milhares de massa folhada em camadas recheada com creme de confeiteiro. Tradicionalmente, o mil-folhas é composto por três camadas de massa folhada, alternadas com duas camadas de creme de confeiteiro. E a camada superior pode ser finalizada com chantilly ou polvilhada com açúcar de confeiteiro, cacau ou amêndoas fatiadas.",
         "preco": "100,00",
-        "imagem": "milfolhas.jpg"
+        "imagem": "milfolhas.jpg",
+        "categoria": "sombremesa"
         },
         {
         "nome": "Paris-Brest",
         "descricao": "Paris-Brest é uma sobremesa francesa clássica e sofisticada. O seu nome refere-se a uma corrida de bicicletas que ligava Paris à cidade de Brest, na Bretanha, no início do século XX. O chef Louis Durand, que criou a sobremesa, inspirou-se no fato de a corrida passar logo na porta de sua confeitaria.",
         "preco": "110,00",
-        "imagem": "paris-brest.jpg"
+        "imagem": "paris-brest.jpg",
+        "categoria": "sombremesa"
         },
         {
         "nome": "Crème Brûlée",
         "descricao": "Crème Brûlée é o famoso creme de ovos coberto com uma camada de açúcar queimada, preparado com ovos batidos, manteiga, açúcar e baunilha. Então, o que torna o Crème brûlée tão especial? São as duas camadas contrastantes de creme de baunilha delicioso sob açúcar caramelizado crocante.",
         "preco": "90,00",
-        "imagem": "creme-brulee.jpg"
+        "imagem": "creme-brulee.jpg",
+        "categoria": "sombremesa"
         }
     ]
   }
