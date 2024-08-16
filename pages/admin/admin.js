@@ -1,6 +1,16 @@
 const categorias = document.querySelector("#qtd-categorias");
 const pratos = document.querySelector("#qtd-pratos")
 
+document.addEventListener("DOMContentLoaded", function() {
+
+    paginator({
+        table: document.getElementById("table"),
+        box: document.getElementById("paginator"),
+        rows_per_page: 7
+   }, true);
+
+});
+
 fetch('../../produtos.json').then((response) => {
     response.json().then((dados) => {
         const qtdCategoria = Object.keys(dados).length;
@@ -66,22 +76,6 @@ fetch('../../produtos.json').then((response) =>{ //pegar arquivo e retornar
         });
         dados.Sobremesa.map((prato) => { //mapeia dados baseado em pratoEntrada
             celula.innerHTML += `
-                <tr>
-                <td>${prato.nome}</td>
-                <td>${prato.preco}</td>
-                <td class="td-justify">${prato.descricao}</td>
-                <td>${prato.imagem}</td>
-                <td>${prato.categoria}</td>
-                <td><i class="fa-solid fa-trash"></i></td>
-                </tr>
-                <tr>
-                <td>${prato.nome}</td>
-                <td>${prato.preco}</td>
-                <td class="td-justify">${prato.descricao}</td>
-                <td>${prato.imagem}</td>
-                <td>${prato.categoria}</td>
-                <td><i class="fa-solid fa-trash"></i></td>
-                </tr>
                 <tr>
                 <td>${prato.nome}</td>
                 <td>${prato.preco}</td>
