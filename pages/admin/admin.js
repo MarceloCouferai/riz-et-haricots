@@ -19,6 +19,7 @@ fetch('../../produtos.json').then((response) => {
 
 const mainPgInicial = document.getElementById("main-pginicial");
 const mainCardapio = document.getElementById("main-cardapio");
+
 const pgInicial = document.getElementById("pg-inicial");
 const pgCardapio = document.getElementById("pg-cardapio")
 
@@ -34,6 +35,7 @@ pgInicial.addEventListener("click", () => {
     mainPgInicial.style.display = "flex";
 });
 
+
 const celula = document.querySelector(".info-table");
 
 fetch('../../produtos.json').then((response) =>{ //pegar arquivo e retornar
@@ -43,7 +45,7 @@ fetch('../../produtos.json').then((response) =>{ //pegar arquivo e retornar
                 <tr>
                 <td>${prato.nome}</td>
                 <td>${prato.preco}</td>
-                <td>${prato.descricao}</td>
+                <td class="td-justify">${prato.descricao}</td>
                 <td>${prato.imagem}</td>
                 <td>${prato.categoria}</td>
                 <td><i class="fa-solid fa-trash"></i></td>
@@ -55,7 +57,7 @@ fetch('../../produtos.json').then((response) =>{ //pegar arquivo e retornar
                 <tr>
                 <td>${prato.nome}</td>
                 <td>${prato.preco}</td>
-                <td>${prato.descricao}</td>
+                <td class="td-justify">${prato.descricao}</td>
                 <td>${prato.imagem}</td>
                 <td>${prato.categoria}</td>
                 <td><i class="fa-solid fa-trash"></i></td>
@@ -67,7 +69,7 @@ fetch('../../produtos.json').then((response) =>{ //pegar arquivo e retornar
                 <tr>
                 <td>${prato.nome}</td>
                 <td>${prato.preco}</td>
-                <td>${prato.descricao}</td>
+                <td class="td-justify">${prato.descricao}</td>
                 <td>${prato.imagem}</td>
                 <td>${prato.categoria}</td>
                 <td><i class="fa-solid fa-trash"></i></td>

@@ -242,10 +242,13 @@ body {
                         tbody {
 
                             tr{
-
+                                .td-justify{
+                                    text-align: justify;
+                                }
+                                
                                 td{
                                     text-align: center;
-                                    padding: 15px;
+                                    padding: 15px; 
                                 }
                             }
                         }
