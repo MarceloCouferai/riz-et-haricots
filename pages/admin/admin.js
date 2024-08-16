@@ -33,3 +33,46 @@ pgInicial.addEventListener("click", () => {
     mainCardapio.style.display = "none";
     mainPgInicial.style.display = "flex";
 });
+
+const celula = document.querySelector(".info-table");
+
+fetch('../../produtos.json').then((response) =>{ //pegar arquivo e retornar
+    response.json().then((dados) =>{ //converte em um objeto
+        dados.pratoEntrada.map((prato) => { //mapeia dados baseado em pratoEntrada
+            celula.innerHTML += `
+                <tr>
+                <td>${prato.nome}</td>
+                <td>${prato.preco}</td>
+                <td>${prato.descricao}</td>
+                <td>${prato.imagem}</td>
+                <td>${prato.categoria}</td>
+                <td><i class="fa-solid fa-trash"></i></td>
+                </tr>
+            `
+        });
+        dados.pratoPrincipal.map((prato) => { //mapeia dados baseado em pratoEntrada
+            celula.innerHTML += `
+                <tr>
+                <td>${prato.nome}</td>
+                <td>${prato.preco}</td>
+                <td>${prato.descricao}</td>
+                <td>${prato.imagem}</td>
+                <td>${prato.categoria}</td>
+                <td><i class="fa-solid fa-trash"></i></td>
+                </tr>
+            `
+        });
+        dados.Sobremesa.map((prato) => { //mapeia dados baseado em pratoEntrada
+            celula.innerHTML += `
+                <tr>
+                <td>${prato.nome}</td>
+                <td>${prato.preco}</td>
+                <td>${prato.descricao}</td>
+                <td>${prato.imagem}</td>
+                <td>${prato.categoria}</td>
+                <td><i class="fa-solid fa-trash"></i></td>
+                </tr>
+            `
+        })      
+    })
+})
