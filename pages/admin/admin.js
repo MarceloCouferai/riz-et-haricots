@@ -74,6 +74,22 @@ fetch('../../produtos.json').then((response) =>{ //pegar arquivo e retornar
                 <td>${prato.categoria}</td>
                 <td><i class="fa-solid fa-trash"></i></td>
                 </tr>
+                <tr>
+                <td>${prato.nome}</td>
+                <td>${prato.preco}</td>
+                <td class="td-justify">${prato.descricao}</td>
+                <td>${prato.imagem}</td>
+                <td>${prato.categoria}</td>
+                <td><i class="fa-solid fa-trash"></i></td>
+                </tr>
+                <tr>
+                <td>${prato.nome}</td>
+                <td>${prato.preco}</td>
+                <td class="td-justify">${prato.descricao}</td>
+                <td>${prato.imagem}</td>
+                <td>${prato.categoria}</td>
+                <td><i class="fa-solid fa-trash"></i></td>
+                </tr>
             `
         })      
     })
